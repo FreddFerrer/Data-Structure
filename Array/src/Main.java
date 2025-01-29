@@ -1,5 +1,8 @@
 import Ejerc1.Ejerc1;
 import Ejerc2.Ejerc2;
+import Ejerc3.BinarySearch;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,6 +27,8 @@ public class Main {
          ejerc2.eliminarNumerosArray(numeros);
          */
 
+        BinarySearch binarySearch = new BinarySearch();
+        binarySearch.buscarNumeroEnArray(numeros, 10);
 
     }
 }
