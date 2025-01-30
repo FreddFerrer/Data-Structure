@@ -1,6 +1,7 @@
 import Ejerc1.Ejerc1;
 import Ejerc2.Ejerc2;
 import Ejerc3.BinarySearch;
+import Ejerc4.Ejerc4;
 
 import java.util.Arrays;
 
@@ -9,6 +10,7 @@ public class Main {
         Array array = new Array();
 
         int[] numeros = {10, 20, 10, 30, 40};
+        int[] arrayEjerc4 = {10, 10, 50, 50, 20, 30 ,30 ,5 ,5};
 
         //array.mostrarNumeros();
         //array.mostrarNumerosAsendentes();
@@ -27,8 +29,11 @@ public class Main {
          ejerc2.eliminarNumerosArray(numeros);
          */
 
-        BinarySearch binarySearch = new BinarySearch();
-        binarySearch.buscarNumeroEnArray(numeros, 10);
+        //BinarySearch binarySearch = new BinarySearch();
+        //binarySearch.buscarNumeroEnArray(numeros, 10);
+
+         Ejerc4 ejerc4 = new Ejerc4();
+         ejerc4.identificarNumeroUnico(arrayEjerc4);
 
     }
 }
